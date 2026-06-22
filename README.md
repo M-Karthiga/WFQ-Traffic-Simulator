@@ -191,7 +191,7 @@ In this case, no minimum is enforced — a class with zero queue gets zero green
 
 ---
 
-## Screenshots
+## Some outputs...
 
 ### Simulation (Topology 1)
 ![Simulation GIF](outputs/simulation.gif)
