@@ -150,16 +150,44 @@ The uncapped variant consistently achieved lower mean wait times and higher arri
 
 ---
 
-## Results (Topology 1, WFQ uncapped, 300 s)
+
+
+
+## Results 
+The baseline simulation enforces a minimum green time of 10 seconds per phase at each junction. This prevents signal flicker but introduces a lower bound that wastes capacity at lightly-loaded approaches.
+
+### (Topology 1, WFQ capped, 500 s)
 
 | Metric | Value |
 |---|---|
-| Vehicles created | 134 |
-| Vehicles arrived | 103 |
-| Average wait time | ~30 s |
-| Throughput | ~0.34 veh/s |
+| Simulation time | 500s |
+| Vehicles created | 703 |
+| Vehicles arrived | 129 |
+| Average wait time | 38.88 s |
+| Throughput | 0.258 veh/s |
+| Peak active vehicle | 574 |
 
-*(Update these figures from `stats.json` after re-running with your final parameters.)*
+### (Topology 2, WFQ capped, 360 s)
+
+| Metric | Value |
+|---|---|
+| Simulation time | 360s |
+| Vehicles created | 283 |
+| Vehicles arrived | 142 |
+| Average wait time | 25.20 s |
+| Throughput | 0.394 veh/s |
+| Peak active vehicle | 142 |
+
+### Topology 1, WFQ uncapped, 500 s
+In this case, no minimum is enforced — a class with zero queue gets zero green time.
+| Metric | Value |
+|---|---|
+| Simulation time | 500s |
+| Vehicles created | 924 |
+| Vehicles arrived | 141 |
+| Average wait time | 37.85 s |
+| Throughput | ~0.282 veh/s |
+| Peak active vehicle | 784 |
 
 ---
 
