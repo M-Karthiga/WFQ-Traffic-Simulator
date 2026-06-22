@@ -130,13 +130,14 @@ Roads are directional — bidirectional corridors use paired `A`/`B` road IDs.
 
 Two network topologies were tested, each under two signal control configurations.
 
-### Topology 1 — Asymmetric hub-spoke (`network.json`)
+### Topology 1 — Regular grid (`network.json`)
+
+12 nodes in a 4×3 grid, uniform corridor lengths. 4 source nodes, up to 4 vehicle classes per source.
+
+### Topology 2 — Asymmetric hub-spoke (`network2.json`)
 
 10 nodes, irregular layout, 4 source nodes generating 5 vehicle classes. High-demand corridor J1 → J5 → J6.
 
-### Topology 2 — Regular grid (`network2.json`)
-
-12 nodes in a 4×3 grid, uniform corridor lengths. 4 source nodes, up to 4 vehicle classes per source.
 
 ### Signal control variants
 
@@ -165,8 +166,11 @@ The uncapped variant consistently achieved lower mean wait times and higher arri
 ## Screenshots
 
 ### Simulation (Topology 1)
-
 ![Simulation GIF](outputs/simulation.gif)
+
+### Simulation (Topology 2)
+
+![Simulation GIF](outputs/simulation2.gif)
 
 ### Network Editor
 
