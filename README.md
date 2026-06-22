@@ -81,6 +81,7 @@ python main.py --edit
 ```
 
 Use the editor to place junctions, draw roads, set lane counts and speed limits, configure source/sink nodes, and export to JSON. No JSON editing required.
+<img width="1176" height="699" alt="image" src="https://github.com/user-attachments/assets/f12f08e7-6f6d-4860-b735-31ac03d62917" />
 
 ---
 
@@ -169,7 +170,6 @@ The uncapped variant consistently achieved lower mean wait times and higher arri
 
 ### Network Editor
 
-<img width="1176" height="699" alt="image" src="https://github.com/user-attachments/assets/f12f08e7-6f6d-4860-b735-31ac03d62917" />
 
 <img width="1171" height="679" alt="image" src="https://github.com/user-attachments/assets/256b53c3-02f3-4a54-b050-216461130d43" />
 
