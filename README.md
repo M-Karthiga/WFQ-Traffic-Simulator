@@ -30,8 +30,8 @@ Toy-Traffic-Simulator/
 ├── source_sink.py               # Poisson arrival / departure logic
 ├── visualiser.py                # Pygame real-time animation
 ├── netedit.py                   # Network editor GUI
-├── network.json                 # Network topology 1 — asymmetric hub-spoke (10 nodes)
-├── network2.json                # Network topology 2 — regular grid (12 nodes)
+├── network.json                 # Network topology 1 — regular grid (12 nodes)
+├── network2.json                # Network topology 2 — asymmetric hub-spoke (10 nodes)
 ├── city_10_node_demo.json       # Legacy reference topology
 ├── outputs/
 │   ├── simulation.gif           # Topology 1 — WFQ with min-green cap (10 s)
