@@ -1,4 +1,4 @@
-# Toy Traffic Simulator
+# WFQ Traffic Simulator
 
 A discrete-event traffic network simulator written in Python, built for **Communication Networks (Assignment 6)**. Supports arbitrary road topologies defined in JSON, multiple vehicle classes with priority-weighted routing, adaptive traffic signal control, and a built-in GUI network editor.
 
